@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<style type="text/css">
+		body{
+			font-family: sans-serif;
+			background: rgba(0, 0, 0, 0.1);
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0;
+			overflow: hidden;
+			
+		}
+
+		.container{
+			box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+			padding: 45px;
+			border-radius: 30px;
+		}
+
+		img{
+			margin-left: 140px;
+			margin-top: -40px;
+
+		}
+
+		.bord{
+			border: 1px dashed #406940;
+			border-radius: 20px;
+			padding: 22px ;
+		}
+
+		h1,h2{
+			
+			color: #c63d1c;
+			letter-spacing: 1px;
+			text-align: center;
+
+		}
+
+		.guess{
+			padding: 15px;
+			margin-left: 170px;
+			border-color: #93895b;
+		}
+
+		.btn{
+
+			padding: 15px;
+			border-color: #93895b;
+            transition: all 0.5s;
+		}
+
+		.btn:hover{
+			background-color: rgba(0, 0, 0, 0.5);
+			color: white;
+		}
+
+		#message2{
+            margin-top: 15px;
+			margin-left:70px;
+
+		}
+
+		#message1{
+			margin-left: 80px;
+		}
+
+	</style>
+
+</head>
+<body>
+      <div class="container">
+      	<img src="th.png" width="400px"height="180px" id="imgg">
+     <div class="bord">
+
+	<h1>Welcom From Number Guessing Game</h1>
+
+	<h2>The winning number is between  <span class=" minnumber">0</span> to <span class=" maxnumber">10</span></h2>
+	<div id="game">
+	<input type="number" name="number" id="guess" class="guess">
+	<button id="btn" class="btn">Guess</button>
+	<h3 id="message1" ></h3>
+	<h3 id="message2" ></h3>
+    </div>
+    </div>
+    <div></div>
+
+
+
+
+
+
+
+
+
+	<script src="test.js"></script>
+</body>
+</html>
